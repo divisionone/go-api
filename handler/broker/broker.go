@@ -9,10 +9,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gorilla/websocket"
 	"github.com/divisionone/go-api/handler"
-	"github.com/micro/go-log"
 	"github.com/divisionone/go-micro/broker"
+	"github.com/gorilla/websocket"
+	"github.com/micro/go-log"
 )
 
 const (

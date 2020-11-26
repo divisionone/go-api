@@ -54,7 +54,13 @@ func (s *server) Init(opts ...Option) error {
 }
 
 func (s *server) Handle(path string, handler http.Handler) {
-	s.mux.Handle(path, handlers.CombinedLoggingHandler(os.Stdout, handler))
+	h := handler
+
+	if !s.opts.DisableHandlerLogging {
+		h = handlers.CombinedLoggingHandler(os.Stdout, handler)
+	}
+
+	s.mux.Handle(path, h)
 }
 
 func (s *server) Start() error {

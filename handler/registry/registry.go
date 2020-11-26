@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gorilla/websocket"
 	"github.com/divisionone/go-api/handler"
 	"github.com/divisionone/go-micro/registry"
+	"github.com/gorilla/websocket"
 )
 
 const (
