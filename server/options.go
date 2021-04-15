@@ -2,6 +2,7 @@ package server
 
 import (
 	"crypto/tls"
+	"sync"
 )
 
 type Option func(o *Options)
@@ -11,6 +12,7 @@ type Options struct {
 	EnableTLS  bool
 	ACMEHosts  []string
 	TLSConfig  *tls.Config
+	Wait *sync.WaitGroup
 }
 
 func ACMEHosts(hosts ...string) Option {
@@ -34,5 +36,14 @@ func EnableTLS(b bool) Option {
 func TLSConfig(t *tls.Config) Option {
 	return func(o *Options) {
 		o.TLSConfig = t
+	}
+}
+
+func Wait(wg *sync.WaitGroup) Option {
+	return func(o *Options) {
+		if wg == nil {
+			wg = new(sync.WaitGroup)
+		}
+		o.Wait = wg
 	}
 }

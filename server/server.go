@@ -98,5 +98,10 @@ func (s *server) Start() error {
 func (s *server) Stop() error {
 	ch := make(chan error)
 	s.exit <- ch
+
+	if s.opts.Wait != nil {
+		s.opts.Wait.Wait()
+	}
+
 	return <-ch
 }
