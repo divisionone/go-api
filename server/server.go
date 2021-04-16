@@ -79,10 +79,7 @@ func (s *server) Start() error {
 
 	s.mtx.Lock()
 	s.address = l.Addr().String()
-	srv := &http.Server{
-		Addr:    s.address,
-		Handler: s.mux,
-	}
+	srv := &http.Server{Handler: s.mux}
 	s.mtx.Unlock()
 
 	go func() {
