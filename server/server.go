@@ -79,9 +79,9 @@ func (s *server) Start() error {
 
 	s.mtx.Lock()
 	s.address = l.Addr().String()
-	srv := &http.Server{Handler: s.mux}
 	s.mtx.Unlock()
 
+	srv := &http.Server{Handler: s.mux}
 	go func() {
 		if err = srv.Serve(l); err != nil {
 			// Ignore err as per original micro implementation.
