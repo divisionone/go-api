@@ -2,6 +2,7 @@
 package server
 
 import (
+	"context"
 	"crypto/tls"
 	"net"
 	"net/http"
@@ -80,16 +81,16 @@ func (s *server) Start() error {
 	s.address = l.Addr().String()
 	s.mtx.Unlock()
 
+	srv := &http.Server{Handler: s.mux}
 	go func() {
-		if err := http.Serve(l, s.mux); err != nil {
-			// temporary fix
-			//log.Fatal(err)
+		if err = srv.Serve(l); err != nil {
+			// Ignore err as per original micro implementation.
 		}
 	}()
 
 	go func() {
 		ch := <-s.exit
-		ch <- l.Close()
+		ch <- srv.Shutdown(context.Background())
 	}()
 
 	return nil
