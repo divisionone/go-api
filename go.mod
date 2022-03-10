@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/divisionone/go-micro v1.0.0
 	github.com/divisionone/go-rcache v1.0.0
-	github.com/divisionone/micro v1.0.0
+	github.com/divisionone/micro v1.0.5
 	github.com/divisionone/util v1.0.0
 	github.com/golang/protobuf v1.3.5
 	github.com/gorilla/handlers v1.5.1
@@ -46,7 +46,7 @@ require (
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/stretchr/testify v1.7.0 // indirect
 	golang.org/x/net v0.0.0-20211112202133-69e39bad7dc2 // indirect
-	golang.org/x/sys v0.0.0-20210615035016-665e8c7367d1 // indirect
+	golang.org/x/sys v0.0.0-20220111092808-5a964db01320 // indirect
 	golang.org/x/text v0.3.6 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )
