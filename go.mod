@@ -3,10 +3,10 @@ module github.com/divisionone/go-api
 go 1.17
 
 require (
-	github.com/divisionone/go-micro v1.0.0
-	github.com/divisionone/go-rcache v1.0.0
-	github.com/divisionone/micro v1.0.5
-	github.com/divisionone/util v1.0.0
+	github.com/divisionone/go-micro v1.0.2
+	github.com/divisionone/go-rcache v1.0.1
+	github.com/divisionone/micro v1.0.6
+	github.com/divisionone/util v1.0.1
 	github.com/golang/protobuf v1.3.5
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/websocket v1.5.0
@@ -21,6 +21,7 @@ require (
 require (
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
 	github.com/divisionone/cli v1.0.0 // indirect
+	github.com/divisionone/mdns v1.0.0 // indirect
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/felixge/httpsnoop v1.0.1 // indirect
 	github.com/go-log/log v0.1.0 // indirect
@@ -38,7 +39,6 @@ require (
 	github.com/mattn/go-colorable v0.1.4 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/micro/go-micro v0.26.1 // indirect
-	github.com/micro/mdns v0.3.0 // indirect
 	github.com/miekg/dns v1.1.26 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/hashstructure v1.0.0 // indirect
