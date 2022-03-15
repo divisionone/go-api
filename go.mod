@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/divisionone/go-micro v1.2.1
 	github.com/divisionone/go-rcache v1.0.3
-	github.com/divisionone/micro v1.0.8-0.20220315002608-8d314f7274af
+	github.com/divisionone/micro v1.1.2
 	github.com/divisionone/util v1.0.5
 	github.com/golang/protobuf v1.3.5
 	github.com/gorilla/handlers v1.5.1
@@ -14,7 +14,7 @@ require (
 	github.com/micro/go-log v0.1.0
 	github.com/micro/util v0.2.0
 	github.com/pborman/uuid v1.2.1
-	golang.org/x/crypto v0.0.0-20220307211146-efcb8507fb70
+	golang.org/x/crypto v0.0.0-20220314234724-5d542ad81a58
 	gopkg.in/go-playground/validator.v9 v9.31.0
 )
 
@@ -27,16 +27,13 @@ require (
 	github.com/go-log/log v0.2.0 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
-	github.com/google/btree v1.0.0 // indirect
 	github.com/google/uuid v1.1.2 // indirect
 	github.com/hashicorp/consul/api v1.5.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.1 // indirect
 	github.com/hashicorp/go-hclog v0.12.0 // indirect
 	github.com/hashicorp/go-immutable-radix v1.0.0 // indirect
 	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
-	github.com/hashicorp/go-uuid v1.0.2 // indirect
 	github.com/hashicorp/golang-lru v0.5.3 // indirect
-	github.com/hashicorp/memberlist v0.3.1 // indirect
 	github.com/hashicorp/serf v0.9.6 // indirect
 	github.com/leodido/go-urn v1.2.0 // indirect
 	github.com/mattn/go-colorable v0.1.6 // indirect
