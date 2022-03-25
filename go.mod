@@ -4,9 +4,9 @@ go 1.17
 
 require (
 	github.com/divisionone/go-micro v1.2.1
-	github.com/divisionone/go-rcache v1.0.3
-	github.com/divisionone/micro v1.1.2
-	github.com/divisionone/util v1.0.5
+	github.com/divisionone/go-rcache v1.0.4-0.20220325020333-1cd18893686f
+	github.com/divisionone/micro v1.2.1-0.20220325020341-3cfa54e70a26
+	github.com/divisionone/util v1.0.6-0.20220325020329-7f1855c2f739
 	github.com/golang/protobuf v1.3.5
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/websocket v1.5.0
