@@ -9,8 +9,8 @@ import (
 	"os"
 	"sync"
 
+	"github.com/divisionone/micro-go-log"
 	"github.com/gorilla/handlers"
-	"github.com/micro/go-log"
 
 	"golang.org/x/crypto/acme/autocert"
 )
