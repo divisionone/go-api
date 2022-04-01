@@ -17,6 +17,8 @@ github.com/divisionone/mdns v1.0.1 h1:m6TgddiTUkCCjRj2A2D78U6vAGuVFI/K1Z9fBQ+657
 github.com/divisionone/mdns v1.0.1/go.mod h1:1wbMk9uBxd7+wyUnG+FMDziXZoXyUr/RIWQDf8W1L7E=
 github.com/divisionone/micro v1.2.1-0.20220330054801-c15c2987d726 h1:ECuH2Bz4nQie26bueFIDCyyX+7YrvgzibQqq5mTENII=
 github.com/divisionone/micro v1.2.1-0.20220330054801-c15c2987d726/go.mod h1:Az72DbYglht0yDEwYvVSvGSRRdhqAdF2mLeXheGSMTo=
+github.com/divisionone/micro-go-log v0.0.0-20220329225141-38dfc0353446 h1:pM9fjBsuxrj3Lqb/0SfS6AFi0ytXjgiGuJ/TNdcNc14=
+github.com/divisionone/micro-go-log v0.0.0-20220329225141-38dfc0353446/go.mod h1:b503xepXb6aQF+cDtsd6iG5Y6dJ0Sc7SUoRIiFOYskk=
 github.com/divisionone/util v1.0.6-0.20220330054734-69f4e9e6913b h1:HgVsXPnUmFMOWJIDDYPniPJYQjFs2M4PcwGBAw8s0r4=
 github.com/divisionone/util v1.0.6-0.20220330054734-69f4e9e6913b/go.mod h1:paVSR+qrEggD+hHGZvEXv3uJyT2d4yt/mAhddtoS42Y=
 github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
