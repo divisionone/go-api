@@ -3,11 +3,11 @@ module github.com/divisionone/go-api
 go 1.17
 
 require (
-	github.com/divisionone/go-micro v1.2.2-0.20220401021859-c34bc94ddde2
-	github.com/divisionone/go-rcache v1.0.4-0.20220401021914-02b3e40ee835
-	github.com/divisionone/micro v1.2.1-0.20220401021930-ab24dd19ba92
+	github.com/divisionone/go-micro v1.2.2-0.20220401022928-54ba183d5368
+	github.com/divisionone/go-rcache v1.0.4-0.20220401022943-be27567ae2db
+	github.com/divisionone/micro v1.2.1-0.20220401023003-1d7e7e3a8b48
 	github.com/divisionone/micro-go-log v0.0.0-20220329225141-38dfc0353446
-	github.com/divisionone/util v1.0.6-0.20220401021910-c0a3310292a0
+	github.com/divisionone/util v1.0.6-0.20220401022938-17507796a716
 	github.com/golang/protobuf v1.3.5
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/websocket v1.5.0
