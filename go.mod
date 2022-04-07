@@ -52,3 +52,5 @@ require (
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )
+
+replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.5.0
