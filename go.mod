@@ -3,12 +3,12 @@ module github.com/divisionone/go-api
 go 1.17
 
 require (
-	github.com/divisionone/go-micro v1.2.2-0.20220401023206-6995f61f205d
-	github.com/divisionone/go-rcache v1.0.4-0.20220401023219-b4a6ce28e8dd
+	github.com/divisionone/go-micro v1.2.2-0.20220407005147-f89593198113
+	github.com/divisionone/go-rcache v1.0.4-0.20220407004541-b7d6e0c4f7ec
 	github.com/divisionone/micro v1.2.1-0.20220401023240-ea982cb6588d
-	github.com/divisionone/micro-go-log v0.0.0-20220329225141-38dfc0353446
-	github.com/divisionone/util v1.0.6-0.20220401023215-69796281bd12
-	github.com/golang/protobuf v1.3.5
+	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
+	github.com/divisionone/util v1.0.6-0.20220407004535-b69b4527ec2c
+	github.com/golang/protobuf v1.4.3
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/websocket v1.5.0
 	github.com/joncalhoun/qson v0.0.0-20200422171543-84433dcd3da0
@@ -51,6 +51,9 @@ require (
 	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
+	gopkg.in/yaml.v2 v2.3.0 // indirect
 )
 
 replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.5.0
+
+replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
