@@ -4,10 +4,10 @@ go 1.17
 
 require (
 	github.com/divisionone/go-micro v1.2.2-0.20220407231537-93dc1310a428
-	github.com/divisionone/go-rcache v1.0.4-0.20220407025419-c11129e312d4
-	github.com/divisionone/micro v1.2.1-0.20220407025439-38c96142d2b3
+	github.com/divisionone/go-rcache v1.0.4-0.20220407231839-33729de013cc
+	github.com/divisionone/micro v1.2.1-0.20220407231613-80de1a4a92d5
 	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
-	github.com/divisionone/util v1.0.6-0.20220407025414-28c003ab3e30
+	github.com/divisionone/util v1.0.6-0.20220407231832-e160f5470eee
 	github.com/golang/protobuf v1.5.0
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/websocket v1.5.0
