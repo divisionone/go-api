@@ -3,7 +3,7 @@ module github.com/divisionone/go-api
 go 1.17
 
 require (
-	github.com/divisionone/go-micro v1.2.2-0.20220407231537-93dc1310a428
+	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
 	github.com/divisionone/go-rcache v1.0.4-0.20220407231839-33729de013cc
 	github.com/divisionone/micro v1.2.1-0.20220407231613-80de1a4a92d5
 	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
