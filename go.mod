@@ -51,9 +51,10 @@ require (
 	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
-	gopkg.in/yaml.v2 v2.3.0 // indirect
 )
 
 replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.5.0
 
 replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
+
+replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.11.0
