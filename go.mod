@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
 	github.com/divisionone/go-rcache v1.0.4-0.20220408001032-ed859f29b4c1
-	github.com/divisionone/micro v1.2.1-0.20220407232018-5059b367ba71
+	github.com/divisionone/micro v1.2.1-0.20220411234318-346c5eadae33
 	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
 	github.com/divisionone/util v1.0.6-0.20220408001024-b1ac14f46bbd
 	github.com/golang/protobuf v1.5.0
