@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/divisionone/go-api/handler"
-	"github.com/micro/util/go/lib/ctx"
+	"github.com/divisionone/util/go/lib/ctx"
 )
 
 type event struct {
