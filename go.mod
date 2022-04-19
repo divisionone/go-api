@@ -11,7 +11,7 @@ replace github.com/divisionone/util => github.com/divisionone/util v0.0.0-202204
 require (
 	github.com/divisionone/go-micro v1.2.1
 	github.com/divisionone/go-rcache v1.0.3
-	github.com/divisionone/micro v0.0.0-20220418234947-460f4b00b476
+	github.com/divisionone/micro v0.0.0-20220419000238-f6f0b15e8c70
 	github.com/divisionone/micro-go-log v0.0.0-20220418232529-4361a503ea3a
 	github.com/divisionone/util v1.0.5
 	github.com/golang/protobuf v1.3.5
