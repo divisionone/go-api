@@ -6,6 +6,8 @@ replace github.com/divisionone/go-rcache => github.com/divisionone/go-rcache v0.
 
 replace github.com/divisionone/micro => github.com/divisionone/micro v0.0.0-20220419001613-e00e853550fc
 
+replace github.com/divisionone/util => github.com/divisionone/util v0.0.0-20220418234527-c45f1bc172a6
+
 require (
 	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
 	github.com/divisionone/go-rcache v1.0.4-0.20220408001032-ed859f29b4c1

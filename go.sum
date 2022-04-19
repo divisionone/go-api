@@ -19,8 +19,8 @@ github.com/divisionone/micro v0.0.0-20220419001613-e00e853550fc h1:e0kDLgUGdFivk
 github.com/divisionone/micro v0.0.0-20220419001613-e00e853550fc/go.mod h1:1MSw9gXMy7F8gucoqcYOxoiQ3jM+51kl7CZFyYcPDE4=
 github.com/divisionone/micro-go-log v0.0.0-20220418232529-4361a503ea3a h1:vfGVHNqRlIk3pPVm0HJ2Rlpc+YmSeTvK9NL/Q3dv0vc=
 github.com/divisionone/micro-go-log v0.0.0-20220418232529-4361a503ea3a/go.mod h1:q6XKLhgDSDRoXYepQqFaSiQnhgOEkgPi+Csh+YfoR1U=
-github.com/divisionone/util v1.0.6-0.20220408001024-b1ac14f46bbd h1:KqINyOdaUQY4GntfZKkJ5nV3BDuWFVcOypBKuXqnp4I=
-github.com/divisionone/util v1.0.6-0.20220408001024-b1ac14f46bbd/go.mod h1:Fi8dqQc0dgLhdjeW2647TT36GbU60fJPztmND77sa88=
+github.com/divisionone/util v0.0.0-20220418234527-c45f1bc172a6 h1:I5s5RD+y79S6aHgQiS8iVUfOZavxnewwsQjTzlNra+8=
+github.com/divisionone/util v0.0.0-20220418234527-c45f1bc172a6/go.mod h1:YANDx7rDlBO1U2uHuXd7Ok+nbps2JmDT4YxQ8+65iec=
 github.com/fatih/color v1.7.0/go.mod h1:Zm6kSWBoL9eyXnKyktHP6abPY2pDugNf5KwzbycvMj4=
 github.com/fatih/color v1.9.0 h1:8xPHl4/q1VyqGIPif1F+1V3Y3lSmrq01EabUW3CoW5s=
 github.com/fatih/color v1.9.0/go.mod h1:eQcE1qtQxscV5RaZvpXrrb8Drkc3/DdQ+uUYCNjL+zU=
