@@ -2,10 +2,14 @@ module github.com/divisionone/go-api
 
 go 1.17
 
+replace github.com/divisionone/go-rcache => github.com/divisionone/go-rcache v0.0.0-20220418234958-1bc0a8f49cc8
+
+replace github.com/divisionone/micro => github.com/divisionone/micro v0.0.0-20220419001613-e00e853550fc
+
 require (
 	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
 	github.com/divisionone/go-rcache v1.0.4-0.20220408001032-ed859f29b4c1
-	github.com/divisionone/micro v0.0.0-20220419001613-e00e853550fc
+	github.com/divisionone/micro v1.2.4
 	github.com/divisionone/micro-go-log v0.0.0-20220418232529-4361a503ea3a
 	github.com/divisionone/util v1.0.6-0.20220408001024-b1ac14f46bbd
 	github.com/golang/protobuf v1.5.0
@@ -32,7 +36,6 @@ require (
 	github.com/hashicorp/go-hclog v0.12.0 // indirect
 	github.com/hashicorp/go-immutable-radix v1.0.0 // indirect
 	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
-	github.com/hashicorp/go-sockaddr v1.0.1 // indirect
 	github.com/hashicorp/golang-lru v0.5.3 // indirect
 	github.com/hashicorp/serf v0.9.6 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
@@ -50,6 +53,7 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
-	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )
+
+replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
