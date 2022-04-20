@@ -4,16 +4,6 @@ go 1.17
 
 replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
 
-replace google.golang.org/genproto => google.golang.org/genproto v0.0.0-20200513103714-09dca8ec2884
-
-replace google.golang.org/grpc => google.golang.org/grpc v1.33.0
-
-replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.11.0
-
-replace github.com/prometheus/common => github.com/prometheus/common v0.26.0
-
-replace github.com/hashicorp/consul/api => github.com/hashicorp/consul/api v1.5.0
-
 require (
 	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
 	github.com/divisionone/go-rcache v1.0.4-0.20220408001032-ed859f29b4c1
