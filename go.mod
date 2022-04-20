@@ -7,7 +7,7 @@ replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
 require (
 	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
 	github.com/divisionone/go-rcache v1.0.4-0.20220408001032-ed859f29b4c1
-	github.com/divisionone/micro v1.2.5-0.20220420010224-eb40729fad93
+	github.com/divisionone/micro v1.2.5-0.20220420225710-b20fa651943c
 	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
 	github.com/divisionone/util v1.0.6-0.20220408001024-b1ac14f46bbd
 	github.com/golang/protobuf v1.5.0
