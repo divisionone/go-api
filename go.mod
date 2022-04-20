@@ -2,10 +2,22 @@ module github.com/divisionone/go-api
 
 go 1.17
 
+replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
+
+replace google.golang.org/genproto => google.golang.org/genproto v0.0.0-20200513103714-09dca8ec2884
+
+replace google.golang.org/grpc => google.golang.org/grpc v1.33.0
+
+replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.11.0
+
+replace github.com/prometheus/common => github.com/prometheus/common v0.26.0
+
+replace github.com/hashicorp/consul/api => github.com/hashicorp/consul/api v1.5.0
+
 require (
 	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
 	github.com/divisionone/go-rcache v1.0.4-0.20220408001032-ed859f29b4c1
-	github.com/divisionone/micro v1.2.5-0.20220414060027-2a169ca21dd9
+	github.com/divisionone/micro v1.2.5-0.20220420010224-eb40729fad93
 	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
 	github.com/divisionone/util v1.0.6-0.20220408001024-b1ac14f46bbd
 	github.com/golang/protobuf v1.5.0
@@ -35,7 +47,7 @@ require (
 	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
 	github.com/hashicorp/golang-lru v0.5.3 // indirect
 	github.com/hashicorp/serf v0.9.6 // indirect
-	github.com/leodido/go-urn v1.2.0 // indirect
+	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/micro/go-micro v0.26.1 // indirect
@@ -52,9 +64,3 @@ require (
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )
-
-replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.5.0
-
-replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
-
-replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.11.0
