@@ -5,12 +5,12 @@ go 1.17
 replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
 
 require (
-	github.com/divisionone/go-micro v1.2.2-0.20220407231945-3e7588c65f7f
-	github.com/divisionone/go-rcache v1.0.4-0.20220408001032-ed859f29b4c1
+	github.com/divisionone/go-micro v1.2.2-0.20220429041128-e1a3c32d53bf
+	github.com/divisionone/go-rcache v1.0.4-0.20220429041121-1d92bb6a2464
 	github.com/divisionone/micro v1.2.5-0.20220420225710-b20fa651943c
 	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
-	github.com/divisionone/util v1.0.6-0.20220408001024-b1ac14f46bbd
-	github.com/golang/protobuf v1.5.0
+	github.com/divisionone/util v1.0.6-0.20220429041110-220de79cd0f2
+	github.com/golang/protobuf v1.5.2
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/websocket v1.5.0
 	github.com/joncalhoun/qson v0.0.0-20200422171543-84433dcd3da0
