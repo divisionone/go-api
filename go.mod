@@ -58,3 +58,5 @@ require (
 replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.5.0
 
 replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.11.0
+
+replace google.golang.org/protobuf => google.golang.org/protobuf v1.28.0
