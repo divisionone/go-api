@@ -2,8 +2,6 @@ module github.com/divisionone/go-api
 
 go 1.17
 
-replace github.com/golang/protobuf => github.com/golang/protobuf v1.3.5
-
 require (
 	github.com/divisionone/go-micro v1.2.2-0.20220429041128-e1a3c32d53bf
 	github.com/divisionone/go-rcache v1.0.4-0.20220429041121-1d92bb6a2464
@@ -52,6 +50,7 @@ require (
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/tools v0.1.6-0.20210726203631-07bc1bf47fb2 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	google.golang.org/protobuf v1.26.0 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )
 
