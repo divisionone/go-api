@@ -3,11 +3,11 @@ module github.com/divisionone/go-api
 go 1.17
 
 require (
-	github.com/divisionone/go-micro v1.2.2-0.20220429041128-e1a3c32d53bf
-	github.com/divisionone/go-rcache v1.0.4-0.20220429041121-1d92bb6a2464
+	github.com/divisionone/go-micro v1.2.2-0.20220429052647-080b74a927ae
+	github.com/divisionone/go-rcache v1.0.4-0.20220429052643-64447305d86a
 	github.com/divisionone/micro v1.2.5-0.20220420225710-b20fa651943c
 	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
-	github.com/divisionone/util v1.0.6-0.20220429041110-220de79cd0f2
+	github.com/divisionone/util v1.0.6-0.20220429052633-b82d53737035
 	github.com/golang/protobuf v1.5.2
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/websocket v1.5.0
@@ -53,3 +53,9 @@ require (
 	google.golang.org/protobuf v1.26.0 // indirect
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )
+
+replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.5.0
+
+replace google.golang.org/protobuf => google.golang.org/protobuf v1.28.0
+
+replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.11.0
