@@ -54,8 +54,10 @@ require (
 	gopkg.in/go-playground/assert.v1 v1.2.1 // indirect
 )
 
+replace google.golang.org/protobuf => google.golang.org/protobuf v1.28.0
+
 replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.5.0
 
-replace google.golang.org/protobuf => google.golang.org/protobuf v1.28.0
+replace github.com/prometheus/common => github.com/prometheus/common v0.26.0
 
 replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.11.0
