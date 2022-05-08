@@ -3,7 +3,7 @@ module github.com/divisionone/go-api
 go 1.17
 
 require (
-	github.com/divisionone/go-micro v1.2.2-0.20220429055917-087d285d4a42
+	github.com/divisionone/go-micro v1.2.2-0.20220505031121-c641ec568d86
 	github.com/divisionone/go-rcache v1.0.4-0.20220429052643-64447305d86a
 	github.com/divisionone/micro v1.2.5-0.20220420225710-b20fa651943c
 	github.com/divisionone/micro-go-log v0.0.0-20220401021801-5024c5e56f11
@@ -55,5 +55,3 @@ require (
 )
 
 replace github.com/hashicorp/consul => github.com/hashicorp/consul v1.5.0
-
-replace github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.11.0
