@@ -5,8 +5,8 @@ go 1.19
 require (
 	github.com/divisionone/go-micro v0.9.1-0.20221207071810-19ca01a57ff3
 	github.com/divisionone/go-rcache v0.0.0-20221207064910-5d97c790e129
-	github.com/divisionone/micro v0.0.0-20221207064911-4791be8d6c93
 	github.com/divisionone/micro-go-log v0.0.0-20221207065711-3a2b09240c2d
+	github.com/divisionone/micro/api/proto v0.0.0-20221215005043-3880c21c6489
 	github.com/divisionone/util v0.0.0-20221207064911-3b3a602ef39f
 	github.com/golang/protobuf v1.3.5
 	github.com/gorilla/handlers v1.5.1
