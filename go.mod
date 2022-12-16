@@ -3,11 +3,13 @@ module github.com/divisionone/go-api
 go 1.19
 
 require (
-	github.com/divisionone/go-micro v0.9.1-0.20221207071810-19ca01a57ff3
-	github.com/divisionone/go-rcache v0.0.0-20221207064910-5d97c790e129
-	github.com/divisionone/micro-go-log v0.0.0-20221207065711-3a2b09240c2d
-	github.com/divisionone/micro/api/proto v0.0.0-20221215005043-3880c21c6489
-	github.com/divisionone/util v0.0.0-20221207064911-3b3a602ef39f
+	github.com/divisionone/go-micro v1.5.0
+	github.com/divisionone/go-micro/registry v1.5.0
+	github.com/divisionone/go-micro/selector v1.5.1
+	github.com/divisionone/go-rcache v1.5.0
+	github.com/divisionone/micro-go-log v1.5.0
+	github.com/divisionone/micro/api/proto v1.5.0
+	github.com/divisionone/util v1.5.0
 	github.com/golang/protobuf v1.3.5
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/websocket v1.5.0
@@ -19,8 +21,9 @@ require (
 
 require (
 	github.com/armon/go-metrics v0.0.0-20180917152333-f0300d1749da // indirect
-	github.com/divisionone/cli v0.9.1-0.20221207070823-afa2aceba99f // indirect
-	github.com/divisionone/mdns v0.0.0-20221207070114-a1e34565acc7 // indirect
+	github.com/divisionone/cli v1.5.0 // indirect
+	github.com/divisionone/go-micro/metadata v1.5.0 // indirect
+	github.com/divisionone/mdns v1.5.0 // indirect
 	github.com/fatih/color v1.9.0 // indirect
 	github.com/felixge/httpsnoop v1.0.1 // indirect
 	github.com/go-log/log v0.2.0 // indirect
