@@ -125,14 +125,8 @@ func (h *rpcHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 			normalisedErr["code"] = ce.Code
 			normalisedErr["id"] = ce.Id
-
-			if ce.Status != "" {
-				normalisedErr["status"] = ce.Status
-			}
-
-			if ce.Detail != "" {
-				normalisedErr["detail"] = ce.Detail
-			}
+			normalisedErr["status"] = ce.Status
+			normalisedErr["detail"] = ce.Detail
 
 			normalisedErrString, _ := json.Marshal(normalisedErr)
 
