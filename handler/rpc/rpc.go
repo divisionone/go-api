@@ -107,19 +107,30 @@ func (h *rpcHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 		// make the call
 		if err := c.Call(cx, req, &response, client.WithSelectOption(so)); err != nil {
-			ce := errors.Parse(err.Error())
-			switch ce.Code {
-			case 0:
+			callErrString := err.Error()
+
+			ce := errors.Parse(callErrString)
+			if ce.Code == 0 {
 				// assuming it's totally screwed
 				ce.Code = 500
 				ce.Id = "go.micro.api"
 				ce.Status = http.StatusText(500)
 				ce.Detail = "error during request: " + ce.Detail
-				w.WriteHeader(500)
-			default:
-				w.WriteHeader(int(ce.Code))
 			}
-			w.Write([]byte(ce.Error()))
+
+			w.WriteHeader(int(ce.Code))
+
+			normalisedErr := make(map[string]interface{})
+			_ = json.Unmarshal([]byte(callErrString), &normalisedErr)
+
+			normalisedErr["code"] = ce.Code
+			normalisedErr["id"] = ce.Id
+			normalisedErr["status"] = ce.Status
+			normalisedErr["detail"] = ce.Detail
+
+			normalisedErrString, _ := json.Marshal(normalisedErr)
+
+			w.Write([]byte(normalisedErrString))
 			return
 		}
 
