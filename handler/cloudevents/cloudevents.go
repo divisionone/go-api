@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/divisionone/go-api/handler"
-	"github.com/micro/util/go/lib/ctx"
+	"github.com/divisionone/util/go/lib/ctx"
 )
 
 type event struct {
@@ -73,7 +73,7 @@ func (e *event) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	c := e.options.Service.Client()
 
 	// create publication
-	p := c.NewMessage(topic, ev)
+	p := c.NewPublication(topic, ev)
 
 	// publish event
 	if err := c.Publish(ctx.FromRequest(r), p); err != nil {
